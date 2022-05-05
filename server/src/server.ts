@@ -1,7 +1,10 @@
 import express from 'express'
+import cors from 'cors'
 import { routes } from './routes'
 
 const app = express()
+
+app.use(cors())
 
 // Middleware -> verifica se na req existe um body em JSON.
 // Se sim, transforma isso em um objeto JS
