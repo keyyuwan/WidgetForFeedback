@@ -1,3 +1,4 @@
 # Feedback Widget
 
-The project contains Web (ReactJS), Mobile (React Native) and Server (Node.js).
+This project was developed during the NLW event from Rocketseat.
+Contains Web (ReactJS), Mobile (React Native) and Server (Node.js).
