@@ -7,11 +7,7 @@ Contains Web (ReactJS), Mobile (React Native) and Server (Node.js).
 
 ![Capa do projeto Feedback Widget](./.github/images/capaFeedbackWidget.png)
 
-<br />
-
 ## 💻 **Project**
-
----
 
 WidgetForFeedback (Feedback Widget) is a project that allows users send feedbacks (bug/problem, idea or other) to the website/mobile app owner.
 
@@ -21,16 +17,12 @@ The Server (back-end) contains unit tests with Jest.
 
 ## ⚙️ **Features**
 
----
-
 - Write a comment and take a screenshot of the problem or idea the user had to send the feedback;
 - Feedback information (type, comment and screenshot) are sent through email with nodemailer;
 - Gestures are available in the mobile version;
 - The feedbacks are saved on a database;
 
 ## ✨ **Technologies**
-
----
 
 ### **Web:**
 
