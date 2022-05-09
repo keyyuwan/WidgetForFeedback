@@ -20,64 +20,70 @@ The Server (back-end) contains unit tests with Jest.
 - Write a comment and take a screenshot of the problem or idea the user had to send the feedback;
 - Feedback information (type, comment and screenshot) are sent through email with nodemailer;
 - Gestures are available in the mobile version;
-- The feedbacks are saved on a database;
+- The feedbacks are saved on a database.
+
+**Currently working on:**
+
+- Light/Dark theme switch;
+- Use Mailgun to send emails in production;
+- Dashboard to visualize the feedbacks.
 
 ## ✨ **Technologies**
 
 ### **Web:**
 
-### ✅ ReactJS
+#### ✅ ReactJS
 
-### ✅ TypeScript
+#### ✅ TypeScript
 
-### ✅ Tailwindcss
+#### ✅ Tailwindcss
 
-### ✅ Headless UI
+#### ✅ Headless UI
 
-### ✅ Vite
+#### ✅ Vite
 
-### ✅ Axios
+#### ✅ Axios
 
-### ✅ phosphor-react
+#### ✅ phosphor-react
 
-### ✅ html2canvas
+#### ✅ html2canvas
 
 <br />
 
 ### **Mobile:**
 
-### ✅ React Native
+#### ✅ React Native
 
-### ✅ TypeScript
+#### ✅ TypeScript
 
-### ✅ Expo
+#### ✅ Expo
 
-### ✅ Expo Google Fonts
+#### ✅ Expo Google Fonts
 
-### ✅ Axios
+#### ✅ Axios
 
-### ✅ React Native Gesture Handler
+#### ✅ React Native Gesture Handler
 
-### ✅ React Native Svg
+#### ✅ React Native Svg
 
-### ✅ React Native View Shot
+#### ✅ React Native View Shot
 
-### ✅ Bottom Sheet
+#### ✅ Bottom Sheet
 
 <br />
 
 ### **Server:**
 
-### ✅ Node.js
+#### ✅ Node.js
 
-### ✅ Express
+#### ✅ Express
 
-### ✅ TypeScript
+#### ✅ TypeScript
 
-### ✅ Prisma ORM
+#### ✅ Prisma ORM
 
-### ✅ PostreSQL
+#### ✅ PostreSQL
 
-### ✅ Jest
+#### ✅ Jest
 
-### ✅ Nodemailer
+#### ✅ Nodemailer
