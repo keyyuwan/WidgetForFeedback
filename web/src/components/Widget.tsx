@@ -1,8 +1,19 @@
+import { useEffect } from 'react'
 import { ChatTeardropDots } from 'phosphor-react'
 import { Popover } from '@headlessui/react'
 import { WidgetForm } from './WidgetForm'
 
 export function Widget() {
+  const themeInStorage = localStorage.getItem('@feedget:theme')
+
+  useEffect(() => {
+    if (themeInStorage === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }, [themeInStorage])
+
   return (
     <Popover className="absolute bottom-4 right-4 md:bottom-8 md:right-8 flex flex-col items-end">
       <Popover.Panel>

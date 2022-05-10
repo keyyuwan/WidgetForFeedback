@@ -4,10 +4,16 @@ import { SunDim, Moon } from 'phosphor-react'
 export function ToggleThemeButton() {
   const [isDark, setIsDark] = useState(false)
 
+  const themeInStorage = localStorage.getItem('@feedget:theme')
+
   function handleToggleTheme() {
-    document.documentElement.classList.contains('dark')
-      ? document.documentElement.classList.remove('dark')
-      : document.documentElement.classList.add('dark')
+    if (themeInStorage === 'dark') {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('@feedget:theme', 'light')
+    } else {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('@feedget:theme', 'dark')
+    }
 
     setIsDark(!isDark)
   }
