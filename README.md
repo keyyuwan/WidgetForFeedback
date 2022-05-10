@@ -17,15 +17,15 @@ The Server (back-end) contains unit tests with Jest.
 
 ## ⚙️ **Features**
 
-- Write a comment and take a screenshot of the problem or idea the user had to send the feedback;
+- You can take a screenshot and comment the problem or idea to send the feedback;
 - Feedback information (type, comment and screenshot) are sent through email with nodemailer;
 - Gestures are available in the mobile version;
-- The feedbacks are saved on a database.
+- The feedbacks are saved on a database;
+- Theme swicth light/dark. (**Was not developed during the event, this feature was added by myself**)
 
 **Currently working on:**
 
-- Light/Dark theme switch;
-- Use Mailgun to send emails in production;
+- Usage of Mailgun to send emails in production;
 - Dashboard to visualize the feedbacks.
 
 ## ✨ **Technologies**

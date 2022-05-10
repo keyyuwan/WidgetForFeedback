@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html {
+  @apply bg-[#fff] text-zinc-800;
+}
+
+html.dark {
   @apply bg-[#09090a] text-zinc-100;
 }
